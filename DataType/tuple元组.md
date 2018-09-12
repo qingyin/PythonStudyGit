@@ -9,10 +9,12 @@ tuple 不可变是指当你创建了 tuple 时候，它就不能改变了，也�
 元组中只包含一个元素时，需要在元素后面添加逗号,tuple4=(123,)
 如果不加逗号，创建出来的就不是 tuple （元组），而是指 123 这个数了，这是因为括号 ()既可以表示 tuple，又可以表示数学公式中的小括号，这就产生了歧义，因此，Python 规定，这种情况下，按小括号进行计算，计算结果自然是 123 。
 
+![](https://github.com/qingyin/PythonStudyGit/blob/master/DataType/image/tuple-init.png)
 
 ## 2、访问 tuple （元组）
 tuple（元组）可以使用下标索引来访问元组中的值,元组下标索引从0开始，可以进行截取，组合等。
 
+![](https://github.com/qingyin/PythonStudyGit/blob/master/DataType/image/tuple-index.png)
 
 ## 3、删除 tuple （元组）
 tuple 元组中的元素值是不允许删除的，但我们可以使用 del 语句来删除整个元组
